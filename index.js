@@ -17,7 +17,7 @@ app.use(session({
 
 const db = dbConnect();
 
-app.use(router)
+app.use(router);
 
 app.listen(port, () => {
   console.log(`listening on port ${port}`);
