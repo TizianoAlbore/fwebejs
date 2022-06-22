@@ -1,0 +1,28 @@
+
+<!doctype html>
+<html>
+  <head>
+    <title>Menu</title>
+</head>
+  <body>
+   
+    <h1> Menu </h1>
+        <ul>
+      
+        <% menu.forEach (el => { %>
+       <li><dl>
+          
+          <dd><%= el.nome + ' ' + el.prezzo %></dd>
+  
+         
+ 
+      <% }) %>
+      </ul>
+
+ <sep method="post" action="/addCart">
+  <input type="submit" value="Aggiungi all'ordine"></input>
+</sep>
+          
+        
+    <body>
+ 

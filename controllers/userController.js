@@ -9,6 +9,7 @@ export default {
     const newUser = new User({
       username: req.body.username,
       password: req.body.password,
+      
     });
     
     
